@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.stats-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px 165px;
+    gap: 30px;
+    background: #FFFFFF;
+    width: 1440px;
+    height: 332px;
+}
+.stats-section-firstcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 540px;
+    height: 168px;
+
+
+}
+.stats-firstcolumn-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    color: #18191F;
+    width: 540px;
+    height: 128px;
+    font-weight: 800;
+    font-size: 48px;
+ }
+ .stats-firstcolumn-text {
+    width: 540px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #18191F;
+ }
+.stats-section-secondcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 540px;
+    height: 172px;
+
+
+}
+.stats-secondcolumn-firstrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 540px;
+    height: 66px;
+}
+.stats-secondcolumn-secondrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 540px;
+    height: 66px;
+}
+.row-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 255px;
+    height: 66px;       
+}
+.row-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 540px;
+    height: 66px;
+        
+}
+.row-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    width: 48px;
+    height: 48px;
+}
+.row-main {
+    font-weight: 700;
+    font-size: 28px;
+    color: #18191F;
+    width: 191px;
+    height: 40px;
+
+}
+.row-sub {
+    font-weight: 400;
+    font-size: 16px;
+    color: #18191F;
+    width: 191px;
+    height: 26px;
+}
