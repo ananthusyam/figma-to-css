@@ -8,6 +8,8 @@
     background: #2EC5CE;
     display: flex;
     justify-content: space-around;
+    margin: auto;
+
 }
 .cta-left {
     display: flex;
