@@ -53,6 +53,7 @@
     gap: 12px;
     width: 282px;
     height: 40px;
+    cursor: pointer;
 }
 .cta-bottom-text {
     font-size: 18px;
