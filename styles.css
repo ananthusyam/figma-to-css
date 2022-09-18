@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+.hero-footer {
+    display: flex;
+    align-items: center;
+    height: 142px;
+    background: #FFFFFF;
+}
+.hero-company-logos {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 65px;
+}
