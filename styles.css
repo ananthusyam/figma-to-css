@@ -81,10 +81,3 @@
     display: flex;
     justify-content: space-between;
 }
-.hero-company-logos {
-    height: 110px;
-    display: flex;
-    align-items: center;
-    margin: auto;
-    gap: 65px;
-}
