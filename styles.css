@@ -7,11 +7,11 @@
 .feature-section {
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 64px 0 0;
     gap: 48px;
     background: #FFFFFF;
     width: 1440px;
-    height: 672px;
+    height: 670px;
     margin: auto;
     
 }
@@ -21,7 +21,7 @@
     padding: 0;
     gap: 50px;
     width: 1440px;
-    height: 672px;
+    height: 670px;
     align-items: center;
     }
 .feature-header {
@@ -30,7 +30,7 @@
     padding: 0px;
     gap: 8px;
     width: 540px;
-    height: 136px;
+    height: 135px;
     align-items: center;
  
 }
@@ -63,7 +63,6 @@
     height: 360px;
 
 }
-/*first-row */
 .features-list-firstrow {
     display: flex;
     flex-direction: row;
@@ -71,23 +70,23 @@
     padding: 0;
     gap: 30px;
     width: 1110px;
-    height: 148px;    
+    height: 150px;    
 }
-.firstrow-firstcontent {
+.firstcontent {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0;
     gap: 24px;
     width: 350px;
-    height: 148px;
+    height: 150px;
     border-radius: 8px;
 }
-.firstrow-firstcontent-icon {
+.features-list-icon {
     width: 32px;
     height: 32px;
 }
-.firstrow-firstcontent-text {
+.features-list-text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,7 +95,7 @@
     width: 350px;
     height: 92px;
 }
-.firstrow-firstcontent-main {
+.features-list-main {
     width: 350px;
     height: 32px;
     font-family: 'Inter', sans-serif;
@@ -105,7 +104,7 @@
     line-height: 32px;
     text-align: center;
 }
-.firstrow-firstcontent-sub {
+.features-list-sub {
     width: 350px;
     height: 52px;
     font-family: 'Inter', sans-serif;
@@ -114,89 +113,26 @@
     line-height: 26px;
     text-align: center;
 }
-.firstrow-secondcontent {
+.secondcontent {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0;
     gap: 24px;
     width: 350px;
-    height: 148px;
+    height: 150px;
     border-radius: 8px;
 }
-.firstrow-secondcontent-icon {
-    width: 32px;
-    height: 32px;
-}
-.firstrow-secondcontent-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
-    width: 350px;
-    height: 92px;
-}
-.firstrow-secondcontent-main {
-    width: 350px;
-    height: 32px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-}
-.firstrow-secondcontent-sub {
-    width: 350px;
-    height: 52px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-}
-.firstrow-thirdcontent {
+.thirdcontent {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0;
     gap: 24px;
     width: 350px;
-    height: 148px;
+    height: 150px;
     border-radius: 8px;
 }
-.firstrow-thirdcontent-icon {
-    width: 32px;
-    height: 32px;
-}
-.firstrow-thirdcontent-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
-    width: 350px;
-    height: 92px;
-}
-.firstrow-thirdcontent-main {
-    width: 350px;
-    height: 32px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-}
-.firstrow-thirdcontent-sub {
-    width: 350px;
-    height: 52px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-}
-/* second-row */
 .features-list-secondrow {
     display: flex;
     flex-direction: row;
@@ -204,128 +140,5 @@
     padding: 0;
     gap: 30px;
     width: 1110px;
-    height: 148px;    
-}
-.secondrow-firstcontent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    gap: 24px;
-    width: 350px;
-    height: 148px;
-    border-radius: 8px;
-}
-.secondrow-firstcontent-icon {
-    width: 32px;
-    height: 32px;
-}
-.secondrow-firstcontent-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
-    width: 350px;
-    height: 92px;
-}
-.secondrow-firstcontent-main {
-    width: 350px;
-    height: 32px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-}
-.secondrow-firstcontent-sub {
-    width: 350px;
-    height: 52px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-}
-.secondrow-secondcontent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    gap: 24px;
-    width: 350px;
-    height: 148px;
-    border-radius: 8px;
-}
-.secondrow-secondcontent-icon {
-    width: 32px;
-    height: 32px;
-}
-.secondrow-secondcontent-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
-    width: 350px;
-    height: 92px;
-}
-.secondrow-secondcontent-main {
-    width: 350px;
-    height: 32px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-}
-.secondrow-secondcontent-sub {
-    width: 350px;
-    height: 52px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-}
-.secondrow-thirdcontent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    gap: 24px;
-    width: 350px;
-    height: 148px;
-    border-radius: 8px;
-}
-.secondrow-thirdcontent-icon {
-    width: 32px;
-    height: 32px;
-}
-.secondrow-thirdcontent-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
-    width: 350px;
-    height: 92px;
-}
-.secondrow-thirdcontent-main {
-    width: 350px;
-    height: 32px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-}
-.secondrow-thirdcontent-sub {
-    width: 350px;
-    height: 52px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
+    height: 150px;    
 }
