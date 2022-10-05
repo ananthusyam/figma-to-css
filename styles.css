@@ -5,6 +5,9 @@
     font-family: 'Inter',sans-serif;
     color: #18191F;
 }
+.app {
+    max-width: 1440px;
+}
 .testimonial-section {
     width: 100vw;
     height: 900px;
