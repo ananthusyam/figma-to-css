@@ -10,7 +10,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.vector {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
 .nav-bar-list {
     display: flex;
     gap: 32px;
