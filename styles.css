@@ -7,15 +7,15 @@
 .page-six {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 64px 165px;
+    align-items: center;
     gap: 48px;
+    margin-top: 65px;
+    justify-content: center;
+
 }
 .page-six-content {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 0px;
     gap: 30px;
     color: #18191F;
 }
@@ -23,14 +23,13 @@
     font-weight: 800;
     font-size: 40px;
     width: 540px;
-    height: 108px;
+    
 }
 .page-six-content-sub {
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     width: 540px;
-    height: 128px;
 }
 .page-six-image {
     border-radius: 8px;
