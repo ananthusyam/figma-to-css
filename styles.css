@@ -6,26 +6,22 @@
 }
 .page-five {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 64px 165px;
+    justify-content: center;
     gap: 30px;
-    width: 1440px;
+    width: 100%;
     height: 670px;
     background: #FFFFFF;
 }
 .page-five-image {
-    width: 540px;
     height: 540px;
 }
 .page-five-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     padding: 0px 48px;
     gap: 32px;
     width: 540px;
-    height: 300px;
 }
 .page-five-head {
     font-weight: 800;
@@ -39,12 +35,8 @@
 }
 .page-five-button {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 0px;
     gap: 8px;
-    width: 121px;
-    height: 24px;
     font-size: 16px;
     color: #8C30F5;
     border: none;
