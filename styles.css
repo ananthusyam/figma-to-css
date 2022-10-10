@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
+.vector {
+    list-style: none;
+    display: flex;
+    gap: 10px;
 }
 .feature-section {
     display: flex;
