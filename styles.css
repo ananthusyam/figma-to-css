@@ -6,13 +6,12 @@
 }
 .footer {
     display: flex;
-    justify-content: space-between;
     background: #0B0D17;
 }
 .footer-left {
     display: flex;
     flex-direction: column;
-    padding: 55px 165px;
+    margin: 55px auto 55px 165px;
     gap: 25px;
 }
 .footer-left-image {
@@ -47,9 +46,8 @@
     color: #D9DBE1;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 16px;
 }
 .footer-right {
-    padding: 55px 165px 85px;
+    margin: 55px auto 55px 165px;
 }
