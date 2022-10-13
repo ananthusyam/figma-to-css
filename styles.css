@@ -6,9 +6,7 @@
 }
 .hero-footer {
     display: flex;
-    align-items: center;
     background: #FFFFFF;
-    justify-content: space-around;
 }
 .hero-company-logos {
     display: flex;
