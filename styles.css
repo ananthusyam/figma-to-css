@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.hero-footer {
+    display: flex;
+    background: #FFFFFF;
+}
+.hero-company-logos {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 40px 0;
+    gap: 65px;
+}
