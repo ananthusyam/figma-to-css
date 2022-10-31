@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
 }
 .page-six {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 48px;
-    margin-top: 65px;
+    margin: 65px 0;
     justify-content: center;
 
 }
@@ -17,22 +17,22 @@
     display: flex;
     align-items: center;
     gap: 30px;
-    color: #18191F;
+    color: #18191f;
+    justify-content: center;
 }
-.page-six-content-main {
+.main {
     font-weight: 800;
     font-size: 40px;
-    width: 540px;
+    width: 35%;
     
 }
-.page-six-content-sub {
+.sub {
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
-    width: 540px;
+    width: 35%;
 }
-.page-six-image {
+.image {
     border-radius: 8px;
-    width: 1110px;
-    height: 400px;
+   
 }
