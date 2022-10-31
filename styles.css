@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.stats-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 80px 0;
+    justify-content: center;
+    
+}
+
+.stats-section-firstcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 40%;
+}
+.stats-firstcolumn-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #18191F;
+    font-weight: 800;
+    font-size: 48px;
+ }
+ .stats-firstcolumn-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #18191F;
+ }
+.stats-section-secondcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.stats-rows {
+    display: flex;
+    gap: 30px;
+    
+}
+.row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+        
+}
+.row-icon {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+}
+.row-main {
+    font-weight: 700;
+    font-size: 28px;
+    color: #18191F;
+    height: 40px;
+
+}
+.row-sub {
+    font-weight: 400;
+    font-size: 16px;
+    color: #18191F;
+    width: 190px;
+    height: 25px;
+}
