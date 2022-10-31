@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
 }
 .stats-section {
     display: flex;
@@ -17,13 +17,13 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
+    max-width: 40%;
 }
 .stats-firstcolumn-heading {
     display: flex;
     flex-direction: column;
     gap: 8px;
     color: #18191F;
-    max-width: 90%;
     font-weight: 800;
     font-size: 48px;
  }
